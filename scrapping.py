@@ -99,7 +99,7 @@ for j in range(427, 543):
     df = pd.DataFrame(page_data)
 
     df.to_csv(
-        'house_data.csv',
+        '../data/raw/house_data.csv',
         mode='a',
         header=(j == 1),
         index=False
